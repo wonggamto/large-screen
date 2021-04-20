@@ -13,9 +13,6 @@ function App() {
           <Route exact path="/">
             <Home/>
           </Route>
-          <Route exact path="/config">
-            <Config/>
-          </Route>
         </Switch>
       </HashRouter>
     </div>
