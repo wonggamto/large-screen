@@ -4,8 +4,8 @@ import headerBg from '../images/header.png';
 
 export const Home = () => {
     return (
-        <div>
-            <header className="home" style={{backgroundImage:`url(${headerBg})`}}></header>
+        <div className="home">
+            <header style={{backgroundImage:`url(${headerBg})`}}></header>
         </div>
     );
 };
